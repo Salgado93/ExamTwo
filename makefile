@@ -1,4 +1,4 @@
-main: main.o persona.o administrador.o jugador.o repartidor.o mesa.o 
+main: main.o persona.o administrador.o jugador.o repartidor.o mesa.o baraja.o
 	g++ main.o persona.o administrador.o jugador.o repartidor.o mesa.o baraja.o -o exam2  
 	
 main.o:	main.cpp persona.h administrador.h jugador.h repartidor.h mesa.h  

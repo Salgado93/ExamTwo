@@ -9,4 +9,5 @@ class Administrador : public Persona{
 	Administrador(string,int,string,int,string,double);
 	virtual  ~Administrador();
 	virtual string toString()const;
+	
 };

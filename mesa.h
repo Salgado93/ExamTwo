@@ -5,12 +5,12 @@
 using std::string;
 
 class Mesa{
-	string nombre;
+	int numero;
 	string tipo;
-	Repartidor repartidor;
-	Jugador j;
+	Repartidor* repartidor;
+	Jugador* j;
  public:
-	Mesa(string,string,Repartidor,Jugador);
+	Mesa(int,string,Repartidor*,Jugador*);
 	virtual ~Mesa(); 
  	virtual string toString()const;
 };

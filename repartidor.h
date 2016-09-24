@@ -4,9 +4,9 @@
 class Repartidor : public Persona{
 	string dificultad;
 	double dinero;
-	Baraja baraja;
+	Baraja* baraja;
  public:
-	Repartidor(string,int,string,string,double,Baraja);
+	Repartidor(string,int,string,string,double,Baraja*);
 	virtual  ~Repartidor();
 	virtual string toString()const;
 	

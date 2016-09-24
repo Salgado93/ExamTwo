@@ -10,4 +10,6 @@ class Persona{
 	Persona(string,int,string);
 	virtual ~Persona(); 
  	virtual string toString()const;
+	virtual string getNombre();
+	virtual string getId();
 };

@@ -8,7 +8,7 @@
 using namespace std;
 using std::string;
 using std::stringstream;
-Repartidor::Repartidor(string nombre,int edad,string identidad,string dificultad,double dinero,Baraja baraja)
+Repartidor::Repartidor(string nombre,int edad,string identidad,string dificultad,double dinero,Baraja* baraja)
 	:Persona(nombre,edad,identidad),dificultad(dificultad),dinero(dinero),baraja(baraja){
 }
 Repartidor::~Repartidor(){
